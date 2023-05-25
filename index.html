@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is my personal Bio">
+        <title>Fokly Telemaque</title>
+        <link rel="stylesheet" href="./normalize.css">
+        <link rel="stylesheet" href="Style-index.css">
+        
+    </head>
+
+    <body>
+        <header>
+           <div id="background-top">
+                <p id="para1">“It's not a faith in technology. It's faith in people.”<br>
+                    <em> Steve Jobs, Co-founder of Apple</em></p>
+                <h1 id="autor-name">Fokly Telemaque</h1>
+                <nav id="nav-site">
+                    <a href="./index.html">home</a>
+                    <a href="#about">about me</a>
+                    <a href="#hobbies">my hobbies</a> 
+                    <a href="https://github.com/fTelemaque" target="_blank">my portfolio</a>
+                    <a href="#getintouch">get in touch</a>
+                    <a href="https://www.google.com/maps/place/United+States/@31.1860137,-93.9568461,3z/data=!4m6!3m5!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891!16zL20vMDljN3cw" target="_blank"><img src="./usaflag.webp" alt="USA location" weight="20px" height="20px"></a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div id="about">
+                <figure>
+                    <img id="mypic" src="./mypic.JPG"/>
+                </figure>
+                <section>
+                    <h2 id="about-content">about</h2>
+                    <p id="para2">I am currently a <em>full-stack web development student</em>. I am very excited to learn about websites. I can't wait to learn about CSS and Javascript to get my first website looking good and responsive.</p>
+                    <a id="getintouch-link" href="#getintouch">get in touch ></a>
+                </section>
+            </div>
+            <div id="hobbies">
+                <h2 id="myhobbies">my hobbies</h2>
+                <ul id="hobby-list">
+                    <li>Reading</li>
+                    <li>Music</li>
+                    <li>Minimalism</li>
+                    <li>Painting</li>
+                </ul>
+            
+            </div>
+            
+            
+            <div id="div-form">
+                <h2 id="getintouch">get in touch</h2>
+                <p id="para3">I would love to hear from you.</p>
+                <form id="form">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Enter Name"><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Enter Name"><br>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" placeholder="Enter Age"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required><br>
+                    <label for="message">How can I help?</label><br>
+                    <textarea name="message" id="message" cols="25" rows="5" placeholder="Type here"></textarea><br>
+                    <label for="">Do you like my first website?</label><br>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="feedback" id="yes">
+                    <label for="no">No</label>
+                    <input type="radio" name="feedback" id="no"><br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <a id="portfolio-link" href="https://github.com/fTelemaque" target="_blank">My Portfolio</a>
+        </footer>
+    </body>
+</html>
